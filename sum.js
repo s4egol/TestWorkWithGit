@@ -6,4 +6,9 @@ function sum(first, second){
     return +first + +second;
 }
 
-console.log(`[${numberOne} + ${numberTwo} = ${sum(numberOne, numberTwo)}]`)
+//function for output result of sum
+function output(number1, number2, result){
+    console.log(`[${number1} + ${number2} = ${result}]`)
+}
+
+output(numberOne, numberTwo, sum(numberOne, numberTwo));
