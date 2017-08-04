@@ -11,4 +11,8 @@ function output(number1, number2, result){
     console.log(`[${number1} + ${number2} = ${result}]`)
 }
 
+function otherOutput(number1, number2, result){
+    console.log(`Result of ${number1} + ${number2} - ${result}`);
+}
+
 output(numberOne, numberTwo, sum(numberOne, numberTwo));
